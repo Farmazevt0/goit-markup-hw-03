@@ -40,7 +40,7 @@ p {
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-    
+    display: flex;
 }
  
 .flex {
@@ -55,10 +55,15 @@ p {
 /* Header */
 
 .header {
-    padding-top: 120px;
-        padding-bottom: 120px;
+    padding-top: 24px;
+        padding-bottom: 24px;
         border-bottom: 1px solid #e7e9fc;
 }
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
 .header-contacts {
     font-style: normal;
 }
@@ -87,6 +92,14 @@ p {
 
 }
 
+.menu-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    margin-right: 0;
+
+}
+
 .header-menu-link:hover,
 :focus {
     color: #404bbf;
@@ -111,10 +124,22 @@ p {
     color: #404bbf;
 }
 
+.address-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    margin-right: 0;
+}
+
 /* Hero*/
 .hero {
 
     background-color: #2e2f42;
+}
+
+.hero {
+    padding: 188px 0;
+
 }
 
 .hero-title {
@@ -123,6 +148,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -136,6 +162,15 @@ p {
     color: #fff;
     background-color: #4d5ae5;
 
+}
+
+.btn-one {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
