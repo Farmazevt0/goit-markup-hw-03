@@ -107,11 +107,15 @@ p {
 
 .menu-list {
     display: flex;
-    gap: 40px;
-    margin-right: 40px;
-    margin-right: 0;
-    padding: 24px 0
+        gap: 40px;
+        margin-right: 40px;
+        margin-right: 0;
+        padding: 24px 0
 
+}
+
+.header-menu-item {
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -154,14 +158,11 @@ p {
     gap: 48px;
 }
 .hero {
-
+padding: 188px 0;
     background-color: #2e2f42;
 }
 
-.hero {
-    padding: 188px 0;
-   
-}
+
 
 .hero-title {
     font-size: 56px;
@@ -209,6 +210,7 @@ p {
 
 .about {
     margin-right: 24px;
+   
 }
 
 .about-advantages-item {
@@ -226,7 +228,7 @@ p {
    
     }
 
-.about-one {
+.visually-hidden {
     position: absolute;
         width: 1px;
         height: 1px;
@@ -259,9 +261,16 @@ p {
   display: flex;
 gap: 24px;
 margin-bottom: 8px;
-margin-top: 120px;
 
-   
+
+
+
+
+}
+
+.about-advantages-item {
+
+    padding: 120px 0;
 }
 
 
