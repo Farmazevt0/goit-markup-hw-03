@@ -349,7 +349,8 @@ margin-bottom: 8px;
 /* Portfolio */
 
 .pottfolio {
-    padding: 120px 0;
+    padding-top: 120px;
+        padding-bottom: 120px
    
 }
 .container-portfolio {
@@ -398,13 +399,14 @@ margin-bottom: 120px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;
+    
 }
 
 
