@@ -236,16 +236,9 @@ padding: 188px 0;
         overflow: hidden;
     }
 
-.about-advantages {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 8px;
+
     
-}
+
 
 .about-list {
     font-weight: 500;
