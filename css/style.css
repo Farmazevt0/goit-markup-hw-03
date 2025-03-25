@@ -53,18 +53,7 @@ p {
     justify-content: space-between;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 /* Header */
 
 .header {
@@ -135,6 +124,10 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.header-contacts-item {
+    padding: 24px 0;
 }
 
 .header-contacts-address:hover,
@@ -210,6 +203,7 @@ padding: 188px 0;
 
 .about {
     margin-right: 24px;
+    padding: 120px 0;
    
 }
 
@@ -239,7 +233,7 @@ padding: 188px 0;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-}
+    }
 
 .about-advantages {
     font-weight: 500;
