@@ -99,13 +99,11 @@ p {
         gap: 40px;
         margin-right: 40px;
         margin-right: 0;
-        padding: 24px 0
+        
 
 }
 
-.header-menu-item {
-    padding: 24px 0;
-}
+
 
 .header-menu-link:hover,
 :focus {
@@ -118,6 +116,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .header-contacts-address {
@@ -126,9 +125,7 @@ p {
     color: #434455;
 }
 
-.header-contacts-item {
-    padding: 24px 0;
-}
+
 
 .header-contacts-address:hover,
 :focus {
