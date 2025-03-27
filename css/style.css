@@ -174,8 +174,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 48px;
-
+    
 }
 
 .hero-title {
@@ -219,14 +218,6 @@ p {
 }
 
 /* About */
-
-.about  {
-    
-    padding: 120px 0;
-   
-}
-
-
 
 .about-advantages-item {
     width: calc((100% - 72px) / 4);
